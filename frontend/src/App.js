@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 
-import Header from './Header';
+import './global.css';
+
+import Logon from './pages/Logon';
 
 function App() {
 
@@ -11,10 +13,7 @@ function App() {
   console.log(counter)
 
   return (
-    <div>
-      <Header> Contador: {counter} </Header>
-      <button onClick={increment}> Incrementar </button>
-    </div>
+    <Logon />
   );
 }
 
