@@ -13,7 +13,7 @@ export default function Profile() {
         <img src={logoImage} alt="Be The Hero" />
         <span>Bem vinda, APAD</span>
 
-        <Link className="button" to="/incidentes/new">
+        <Link className="button" to="/incidents/new">
           Cadastrar novo caso
         </Link>
         <button type="button">
