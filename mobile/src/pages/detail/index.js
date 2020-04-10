@@ -2,7 +2,7 @@ import React from "react";
 import { Feather } from "@expo/vector-icons";
 import { useNavigation } from "@react-navigation/native";
 import * as MailComposer from "expo-mail-composer";
-import { View, Text, Image, TouchableOpacity } from "react-native";
+import { View, Text, Image, TouchableOpacity, Linking } from "react-native";
 
 import logoImg from "../../assets/logo.png";
 import styles from "./styles";
@@ -24,7 +24,9 @@ export default function Detail() {
     });
   };
 
-  const sendWhatsapp = () => {};
+  const sendWhatsapp = () => {
+    Linking.openURL(`whatsapp://send?phone=35992046567&text=${messageDefault}`);
+  };
 
   return (
     <View style={styles.container}>
@@ -54,7 +56,7 @@ export default function Detail() {
         <Text style={styles.heroDescription}>Entre em contato.</Text>
 
         <View style={styles.actions}>
-          <TouchableOpacity style={styles.action} onPress={() => {}}>
+          <TouchableOpacity style={styles.action} onPress={sendWhatsapp}>
             <Text style={styles.actionText}>WhatsApp</Text>
           </TouchableOpacity>
 
