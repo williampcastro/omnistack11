@@ -13,3 +13,8 @@
 ## Comnads of KNEX Migrations
     npx knex migrate:make create_incidents
     npx knex migrate:latest
+
+## Lib To Validation on Backend
+
+* Celebrate (integra o Joi com o Express do node)
+* Joi
