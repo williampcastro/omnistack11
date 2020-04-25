@@ -13,3 +13,23 @@
 ## Comnads of KNEX Migrations
     npx knex migrate:make create_incidents
     npx knex migrate:latest
+
+## Lib that makes Validation on routes | Backend
+
+* Celebrate (integra o Joi com o Express do node)
+* Joi
+
+
+## Extention to make tests | Backend
+* jest => tests
+* supertest => routes to make tests integrations
+
+## Dependencies | Backend
+* cross-env => 
+
+
+
+## Deploy Tips
+
+For Node (__Backend__) => HEROKU(payed) | Digital Ocean
+For React (__Frontend__) => Netlify
