@@ -5,6 +5,7 @@ const connection = require("../../src/database/connection");
 describe("ONG", () => {
 
     beforeEach(async () => {
+        return await connection.migrate.rollback();
         return await connection.migrate.latest();
     });
 
