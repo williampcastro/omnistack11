@@ -14,7 +14,11 @@
     npx knex migrate:make create_incidents
     npx knex migrate:latest
 
-## Lib To Validation on Backend
+## Lib that makes Validation on routes | Backend
 
 * Celebrate (integra o Joi com o Express do node)
 * Joi
+
+
+## Extention to make tests | Backend
+* jest
