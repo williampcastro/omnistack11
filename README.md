@@ -24,5 +24,12 @@
 * jest => tests
 * supertest => routes to make tests integrations
 
-## Dependencies backend
+## Dependencies | Backend
 * cross-env => 
+
+
+
+## Deploy Tips
+
+For Node (__Backend__) => HEROKU(payed) | Digital Ocean
+For React (__Frontend__) => Netlify
