@@ -21,4 +21,8 @@
 
 
 ## Extention to make tests | Backend
-* jest
+* jest => tests
+
+
+## Dependencies backend
+* cross-env => 
