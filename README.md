@@ -22,7 +22,7 @@
 
 ## Extention to make tests | Backend
 * jest => tests
-
+* supertest => routes to make tests integrations
 
 ## Dependencies backend
 * cross-env => 
